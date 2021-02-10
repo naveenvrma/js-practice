@@ -32,12 +32,11 @@ function multiply(num1, num2){
 }
 multiply(5,7)
 
-function subtract(num1,num2) {
+function subract(num1,num2) {
     console.log(num1-num2);    
 }
-subtract(6,8)
+subract(6,8)
 
 function divide(num1, num2) {
     console.log(num1/num2)
 }
-
