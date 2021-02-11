@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="array.js"></script>
     <title>Document</title>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
 </head>
 <body>
 
-    <input id="aName"type="text" placeholder="Enter Name">
+    <input id="enter-name"type="text" placeholder="Enter Name">
     <button id="add" onclick="addName()"> ADD Name</button>
-    <input id="rName"type="text" placeholder="Remove a Name">
+    <input id="remove-name"type="text" placeholder="Remove a Name">
     <button id="remove" onclick="removeName()"> REMOVE Name </button>
     <h2> The Name's List </h2>
     <p id="display"> </p>
-    <p id="err"></p>
+    <p id="error" class="hide">Entered  Name <b id="bold"></b> Does not Exist</p>
     
 </body>
 </html>
