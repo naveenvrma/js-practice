@@ -1,0 +1,4 @@
+- user should see the fruits and input the quantities for them.
+- user need to know the prices
+- user need to calculate the sum on button click
+- user should see the total in bold.
