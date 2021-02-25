@@ -8,13 +8,25 @@
         .hide{
             display: none;
         }
+        .deck{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            width: fit-content;
+            margin: auto;
+            align-content: center;
+            padding: 2px 10px;
+            
+        }
     </style>
     <title>Card View</title>
 </head>
 <body>
-    <button onclick="shuffleCards()"> Shuffle Cards </button>
-    <button id='draw' class='hide' onclick="drawCard()"> Draw Card </button>
-    <p id='display'> </p>
-    <p id='images'> </p>
+    <div class="deck">
+        <p id='images'> </p>
+        <button onclick="shuffleCards()"> Shuffle Cards </button>
+        <button id='draw' class='hide' onclick="drawCard()"> Draw Card </button>
+        <p id='display'> </p>
+        
+    </div>
+    
 </body>
 </html>
